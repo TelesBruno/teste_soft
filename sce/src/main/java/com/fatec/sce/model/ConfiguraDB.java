@@ -13,7 +13,9 @@ public class ConfiguraDB {
 		this.senha = senha;
 	}
 
-	
+	public String getUrl() {
+		return url;
+	}
 
 	public String getDriver() {
 		return driver;
