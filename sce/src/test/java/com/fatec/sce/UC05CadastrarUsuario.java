@@ -14,8 +14,8 @@ public class UC05CadastrarUsuario {
 	public void CT05retornarNome(){
 		// cenario
 		Usuario usuario = new Usuario();
-		usuario.setNome("Vitorio");
-		assertEquals("Vitorio", usuario.getNome());
+		usuario.setNome("henrique");
+		assertEquals("henrique", usuario.getNome());
 	}
 	
 	//Retorna ra

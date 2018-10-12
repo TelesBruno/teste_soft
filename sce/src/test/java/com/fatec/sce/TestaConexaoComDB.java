@@ -29,7 +29,7 @@ public class TestaConexaoComDB {
 		String url = "jdbc:mysql://localhost:3306/biblioteca";
 		String driver = "com.mysql.jdbc.Driver";
 		String usuario = "root";
-		String senha = "44"; // senha errada
+		String senha = ""; // senha errada
 		FabricaDeConexoes fabricaDeConexoes = null;
 		ConfiguraDB configuraDB = new ConfiguraDB(url, driver, usuario, senha);
 		fabricaDeConexoes = new FabricaDeConexoes(configuraDB);
@@ -55,8 +55,8 @@ public class TestaConexaoComDB {
 		// cenario
 		String url = "jdbc:mysql://localhost:3306/biblioteca";
 		String driver = "com.mysql.jdbc.Driver";
-		String usuario = "root1";
-		String senha = "a"; // senha errada
+		String usuario = "root";
+		String senha = ""; // senha errada
 		FabricaDeConexoes fabricaDeConexoes = null;
 		ConfiguraDB configuraDB = new ConfiguraDB(url, driver, usuario, senha);
 		fabricaDeConexoes = new FabricaDeConexoes(configuraDB);
@@ -83,7 +83,7 @@ public class TestaConexaoComDB {
 		String url = "jdbc:mysql://localhost:3306/biblioteca";
 		String driver = "com.mysql.jdbc.Driver1";
 		String usuario = "root";
-		String senha = "a"; // senha errada
+		String senha = ""; // senha errada
 		FabricaDeConexoes fabricaDeConexoes = null;
 		ConfiguraDB configuraDB = new ConfiguraDB(url, driver, usuario, senha);
 		fabricaDeConexoes = new FabricaDeConexoes(configuraDB);
